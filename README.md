@@ -1,4 +1,4 @@
-# CSV Filter Tool
+# Holonist Data Converter
 
 A simple CSV filtering tool with a graphical interface to select and export specific measurements.
 
