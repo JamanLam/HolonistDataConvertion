@@ -10,14 +10,14 @@ A simple CSV filtering tool with a graphical interface to select and export spec
 
 ## How to Install & Run
 ### 🖥️ Windows
-1. **Download** `CSV_Filter_Tool.exe`
+1. **Download** `Holonist_Data_Converter.exe`
 2. **Double-click** to run (No installation needed)
 
-### 🍏 macOS
-1. **Download** `CSV Filter Tool.app`
-2. **Run** the app (May need permission: *Right-click → Open*)
+<!-- ### 🍏 macOS
+1. **Download** `Holonist_Data_Converter.app`
+2. **Run** the app (May need permission: *Right-click → Open*) -->
 
 ### 🛠️ Running the Python Script
 If you have Python installed:
 ```bash
-python csv_filter_gui.py
+python Holonist_Data_Converter.py
