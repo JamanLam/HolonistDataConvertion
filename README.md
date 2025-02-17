@@ -1,6 +1,6 @@
 # Holonist Data Converter
 
-A simple CSV filtering tool with a graphical interface to select and export specific measurements.
+converting and cleaning the data collected from Holonist into easier understanding and reading table
 
 ## Features
 ✅ Select an input CSV file  
