@@ -13,9 +13,9 @@ A simple CSV filtering tool with a graphical interface to select and export spec
 1. **Download** `Holonist_Data_Converter.exe`
 2. **Double-click** to run (No installation needed)
 
-<!-- ### 🍏 macOS
+### 🍏 macOS
 1. **Download** `Holonist_Data_Converter.app`
-2. **Run** the app (May need permission: *Right-click → Open*) -->
+2. **Run** the app (May need permission: *Right-click → Open*)
 
 ### 🛠️ Running the Python Script
 If you have Python installed:
