@@ -66,10 +66,10 @@ measurement_groups = {
 class CSVFilterApp:
     def __init__(self, root):
         self.root = root
-        self.root.title("CSV Movement Filter - Tooltips + Auto-Detection + Output")
+        self.root.title("Holonist Data Converter")
 
         self.input_file = tk.StringVar()
-        self.output_file = tk.StringVar(value="filtered_movement.csv")
+        self.output_file = tk.StringVar(value="HolonistRecording.csv")
 
         # Which groups are displayed (auto-detected). Key = group_name, Value = BooleanVar
         self.measurement_vars = {}
@@ -79,7 +79,7 @@ class CSVFilterApp:
         self.create_widgets()
 
     def create_widgets(self):
-        tk.Label(self.root, text="Select Input File:").grid(
+        tk.Label(self.root, text="Select Holonist Recording:").grid(
             row=0, column=0, sticky="w", padx=10, pady=5
         )
         tk.Entry(self.root, textvariable=self.input_file, width=50).grid(
@@ -89,7 +89,7 @@ class CSVFilterApp:
             row=0, column=2, padx=10, pady=5
         )
 
-        tk.Label(self.root, text="Output CSV Filename:").grid(
+        tk.Label(self.root, text="Output CSV:").grid(
             row=1, column=0, sticky="w", padx=10, pady=5
         )
         tk.Entry(self.root, textvariable=self.output_file, width=50).grid(
