@@ -2,9 +2,6 @@
 
 converting and cleaning the data collected from Holonist into easier understanding and reading table
 
-STEP 1. Use Numbers to convert and export the Holonist data to .csv in order to get the program works. Otherwise it won't recognize the format
-
-
 ## Features
 ✅ Select an input CSV file  
 ✅ Choose which measurements to keep using checkboxes  
