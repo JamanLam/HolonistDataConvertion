@@ -1,13 +1,12 @@
 # Holonist Data Converter
 
-Convert and clean the data collected from Holonist into easier understanding and reading table for further processing
+A simple Tkinter GUI tool for filtering .holonistRecording sensor data and outputting a cleaned-up CSV. Automatically detects measurement categories (like acceleration, gyroscope, weather, etc.) in the selected log file, lets you choose which categories to keep, and then saves the result to a CSV.
 
 ## Features
-✅ Select an input Holonist file
-✅ Auto detect recorded measurements
-✅ Choose the type of measurements to keep using checkboxes
-✅ Rename and save the filtered file  
-✅ Works on **Windows & macOS**  
+Automatic Detection of available measurements in .holonistRecording files.
+Group Selection for easy toggling of measurement sets (acceleration, weather, etc.).
+Tooltip Descriptions to clarify each measurement group.
+CSV Conversion with optional filtering, generating a final CSV containing only chosen columns.
 
 ## How to Install & Run
 ### 🖥️ Windows
