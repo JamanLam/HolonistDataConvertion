@@ -1,10 +1,11 @@
 # Holonist Data Converter
 
-converting and cleaning the data collected from Holonist into easier understanding and reading table
+Convert and clean the data collected from Holonist into easier understanding and reading table for further processing
 
 ## Features
-✅ Select an input CSV file  
-✅ Choose which measurements to keep using checkboxes  
+✅ Select an input Holonist file
+✅ Auto detect recorded measurements
+✅ Choose the type of measurements to keep using checkboxes
 ✅ Rename and save the filtered file  
 ✅ Works on **Windows & macOS**  
 
@@ -12,12 +13,10 @@ converting and cleaning the data collected from Holonist into easier understandi
 ### 🖥️ Windows
 1. **Download** `Holonist_Data_Converter.exe`
 2. **Double-click** to run (No installation needed)
-<img width="528" alt="Window" src="https://github.com/user-attachments/assets/5a5442e0-dfc7-4399-90d4-695841513081" />
 
 ### 🍏 macOS
 1. **Download** `Holonist_Data_Converter.app`
 2. **Run** the app (May need permission: *Right-click → Open*)
-<img width="810" alt="Mac" src="https://github.com/user-attachments/assets/a62273c0-3a14-40f4-a061-c6518b22965e" />
 
 
 ### 🛠️ Running the Python Script
