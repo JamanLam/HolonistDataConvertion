@@ -3,10 +3,10 @@
 A simple Tkinter GUI tool for filtering .holonistRecording sensor data and outputting a cleaned-up CSV. Automatically detects measurement categories (like acceleration, gyroscope, weather, etc.) in the selected log file, lets you choose which categories to keep, and then saves the result to a CSV.
 
 ## Features
-Automatic Detection of available measurements in .holonistRecording files.
-Group Selection for easy toggling of measurement sets (acceleration, weather, etc.).
-Tooltip Descriptions to clarify each measurement group.
-CSV Conversion with optional filtering, generating a final CSV containing only chosen columns.
+- Automatic Detection of available measurements in .holonistRecording files.
+- Group Selection for easy toggling of measurement sets (acceleration, weather, etc.).
+- Tooltip Descriptions to clarify each measurement group.
+- CSV Conversion with optional filtering, generating a final CSV containing only chosen columns.
 
 ## How to Install & Run
 ### 🖥️ Windows
